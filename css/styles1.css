@@ -1,0 +1,366 @@
+*{
+  margin: 0;
+  padding:0;
+}
+ @font-face {
+  font-family: 'test';
+  src: url('Sansita-Bold.ttf') format('truetype'); */
+}
+header{
+  position:relative;
+
+}
+header img{
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  display: block;
+
+}
+header p{
+  position: absolute;
+  font-size: 72px;
+  left: 50%;
+  top: 50%;
+  font-family: 'test','Gluten', cursive;
+  transform: translate(-50% , -50%);
+
+}
+nav{
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+}
+ul{
+  background-color: #582900;
+  letter-spacing: -0.25rem;
+}
+
+ul a{
+  color: white;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Sansita', sans-serif;
+
+
+
+}
+nav>ul>li{
+  display: inline-block;
+  padding: 15px 150px;
+  width: calc(100%/4);
+  box-sizing: border-box;
+  letter-spacing: normal;
+
+}
+
+.button{
+  text-align: center;
+  margin: : 15px;
+  padding-left: 22px;
+
+}
+.button a{
+  text-decoration: none;
+  color: black;
+}
+
+#Bienvenue .parabienvenue{
+  text-align: center;
+  padding: 15px;
+
+}
+.cafechaudpara{
+  display: inline-block;
+  width: 30%;
+}
+/* .cafechaud h2{
+  font-family: 'Gluten', cursive;
+
+}
+.parabienvenue h1{
+  font-family: 'Gluten', cursive;
+} */
+
+.cafechaudpara{
+  background-color: #582900;
+  color: white;
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  position: relative;
+  top: 10px;
+  right: 10px;
+}
+.cafechaudpara h2{
+  text-align: center;
+  padding-bottom: 5px;
+}
+.menupara h2{
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+.cafechaud img{
+  border-radius: 5px;
+  margin: 10px;
+  float: left;
+}
+.menuimg{
+  letter-spacing:-0.25rem;
+  display: inline-block;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.menupara{
+  width: 70%;
+  display: inline-block;
+  letter-spacing: normal;
+  background-color: #582900;
+  color: white;
+  float: left;
+  border-radius: 4px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  position: relative;
+  left: 10px;
+  top: 100px;
+}
+#menu{
+  letter-spacing: -0.25rem;
+}
+#NosArticles{
+  letter-spacing: -0.25rem;
+}
+.article{
+  width: calc(100%/3 - 20px);
+  padding: 10px 15px;
+  display: inline-block;
+  box-sizing:border-box;
+  letter-spacing:normal;
+  margin: 10px;
+}
+
+.article img{
+  width:100%;
+  border-radius: 10px;
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+  box-sizing: border-box;
+  margin: 20px;
+  position: relative;
+  top: 10px;
+  left: 15px;
+}
+.article>p{
+  background-color: #582900;
+  color: white;
+  padding: 4px 10px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  padding-right: 15px;
+  padding-left: 15px;
+  min-height: 150px;
+}
+.article>a{
+  background-color: #582900;
+  color: white;
+  padding: 2px;
+  display:inline-block;
+  border-radius: 4px;
+  position: relative;
+  left: 250px;
+  top: 8px
+  /* font-family: 'Fredoka One', cursive; */
+}
+.article>h2{
+  text-align: center;
+}
+.equipier{
+  width: calc(100%/3 - 20px);
+  padding: 10px 15px;
+  display: inline-block;
+  box-sizing:border-box;
+  letter-spacing:normal;
+  text-align: center;
+  margin: 10px;
+}
+.equipier img{
+  width:300px;
+  height: 300px;
+  border-radius: 100%;
+  object-fit: cover;
+
+}
+
+.equipier>p{
+  text-transform: uppercase;
+  background-color: #582900;
+  color: white;
+  display: inline-block;
+  padding: 5px;
+  border-radius: 10px;
+
+}
+
+
+#Equipe{
+  letter-spacing: -0.25rem;
+}
+footer{
+  background-color: #582900;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+main{
+  margin: 12px;
+}
+p{
+    font-family: 'Antic', sans-serif;
+
+}
+h1,h2,h3{
+  font-family: 'test','Gluten', cursive;
+
+}
+/* margin et padding de tout les texte  */
+
+.parabienvenue p{
+  padding-right: 150px;
+  padding-left: 150px;
+  padding-top: 15px;
+}
+
+.parabienvenue h1{
+  padding-bottom: 15px;
+}
+button {
+      display: inline-block;
+      background-color:#582900;
+      border-radius: 10px;
+      border: 4px double #cccccc;
+      color: white;
+      text-align: center;
+      font-size: 15px;
+      padding: 10px;
+      width: 150px;
+      transition: all 0.5s;
+      cursor: pointer;
+      margin: 5px;
+      }
+      button span {
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+      transition: 0.5s;
+      }
+      button span:after {
+      position: absolute;
+      opacity: 0;
+      top: 0;
+      right: -20px;
+      transition: 0.5s;
+      }
+      button:hover {
+      background-color: brown;
+      }
+      button:hover span {
+      padding-right: 25px;
+      }
+      button:hover span:after {
+      opacity: 1;
+      right: 0;
+      }
+      .button a{
+        color: white;
+      }
+
+      .equipier img {
+        padding: 50px;
+        /* background-color: green; */
+        transition: transform .2s;
+        width: 200px;
+        height: 200px;
+        margin: 0 auto;
+
+      }
+
+      .equipier img:hover{
+        transform: scale(1.5);
+      }
+      .article img:hover{
+        transform: scale(1.2);
+      }
+      .menuimg img:hover{
+        transform: scale(1.7);
+      }
+      #Equipe h2  {
+        text-align: center;
+        font-size: 35px;
+        letter-spacing: normal;
+      }
+      #NosArticles h2{
+        font-size: 32px;
+        letter-spacing: normal;
+        text-align: center;
+        padding-top: 25px
+      }
+      iframe {
+        padding-left: 35%;
+        padding-right: 35%;
+
+      }
+      #Bienvenue{
+        padding-top: 25px;
+      }
+      .parabienvenue h1
+      {
+        font-size: 35px;
+      }
+      .deroulant{
+        display: none;
+        box-shadow: 0px 5px 5px #CCC;
+        background-color: brown;
+        position: absolute;
+        width: 100%;
+        z-index: 1;
+        letter-spacing: normal;
+        list-style: none;
+        margin:15px -150px;
+      }
+      nav > ul li:hover .deroulant{
+        display: block;
+      }
+      .deroulant li{
+        float: none;
+        width: 100%;
+        /* text-align: left; */
+      }
+      .deroulant a{
+        padding-right:25px;
+        border-bottom: none;
+
+      }
+      .deroulant a:hover{
+        border-bottom: none;
+        background-color: RGBa(200,200,200,0.1);
+
+      }
+      .deroulant > a::after{
+
+        font-size: 12px;
+      }
+      nav>ul>li{
+        /* float: left; */
+        text-align: center;
+        position:relative;
+      }
+      .ssmenu > a::after{
+        content: " ▼";
+        font-size: 12px;
+      }
